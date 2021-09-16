@@ -1,0 +1,20 @@
+.navibar{
+    background-color: #181818dd;
+    height: 2rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navibar input{
+    color: #f1f1f1f1;
+    background-color: transparent;
+    border: none;
+}
+.navibar input:hover{
+    color: #fff;
+    height: 100%;
+    cursor: pointer;
+    border-bottom:2px solid red;
+    
+}

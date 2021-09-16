@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Marvel';
+}
+body{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

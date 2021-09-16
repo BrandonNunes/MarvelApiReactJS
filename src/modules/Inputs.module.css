@@ -1,0 +1,12 @@
+.inputContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+.inputContainer input{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
