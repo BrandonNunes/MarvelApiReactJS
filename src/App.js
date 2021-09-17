@@ -1,5 +1,6 @@
 import md5 from "md5";
 import axios from "axios";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 import React,{useState} from "react";
 import './App.css'
 import Characters from "./Characters";
@@ -46,17 +47,23 @@ const [offset, setOffset] = useState(0);
   
 
   return (
-    <div className="App">
+    <main className="App">
 
         <Header/>
         <Navibar/>
+  <BrowserRouter>
+      <Routes>   
+          <Route path="/" element={<Characters result={result} />}/>
+          <Route/>
+          <Route/>
 
-        <Characters result={result} />
-       
+       </Routes> 
+   </BrowserRouter>   
+        
         <Inputs plus={plus} any={any} />
          
        
-    </div>
+    </main>
   );
 }
 
